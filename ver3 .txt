@@ -1,0 +1,68 @@
+#include <iostream>
+#include <math.h>
+#include <windows.h>
+
+using namespace std;
+int main()
+{
+	SetConsoleCP(1251);
+	SetConsoleOutputCP(1251);
+	
+	float Ax, Ay, Bx, By, Cx, Cy; //Кординаты точек
+	float Ab, aB, Ac, aC, Bc, bC; // //Кординаты векторов
+	float AB, AC, BC; //Длины векторов
+	cout << endl << "Введите X -->"; cin >> Ax; 
+	cout << "Введите Y -->"; cin >> Ay;
+	cout << "Точка А с кординатами (" << Ax << ", " << Ay << ")" << endl;
+	cout << "Введите X -->"; cin >> Bx;
+	cout << "Введите Y -->"; cin >> By;
+	cout << "Точка B с кординатами (" << Bx << ", " << By << ")" << endl;
+	cout << "Введите X -->"; cin >> Cx;
+	cout << "Введите Y -->"; cin >> Cy;
+	cout << "Точка C с кординатами (" << Cx << ", " << Cy << ")" << endl;
+	
+	Ab = Bx - Ax; // Х кордината АВ
+	aB = By - Ay; // Y кордината АВ
+	cout << "Кординаты вектора AB (" << Ab << ", " << aB << ")" << endl; 
+
+	Ac = Cx - Ax; // Х кордината АC
+	aC = Cy - Ay; // Y кордината АC
+	cout << "Кординаты вектора AC (" << Ac << ", " << aC << ")" << endl;
+
+	Bc = Cx - Bx; // Х кордината BC
+	bC = Cy - By; // Y кордината BC
+	cout << "Кординаты вектора BC (" << Bc << ", " << bC << ")" << endl;
+
+	AB = (Ab * Ab + aB * aB); // Длина AB
+	cout << "Длина AB = " << AB<< endl;
+
+	AC = (Ac * Ac + aC * aC); // Длина AС
+	cout << "Длина AB = " << AC << endl;
+
+	BC = (Bc * Bc + bC * bC); // Длина ВС
+	cout << "Длина ВС = " << BC << endl;
+
+	while (1)
+	{
+		if (AB + AC  == BC )
+		{
+			cout << "Катеты АВ = " << AB << " и AC = " << AC << " и гипотенуза ВС = " << BC << " образуют прямогольный треуголник" << endl;
+			break;
+		}
+		else if (AB + BC == AC)
+		{
+			cout << "Катеты АВ = " << AB << " и BC = " << BC << " и гипотенуза AС = " << AC << " образуют прямогольный треуголник" << endl;
+			break;
+		}
+		else if (BC + AC == AB)
+		{
+			cout << "Катеты BC = " << BC << " и AC = " << AC << " и гипотенуза AB = " << AB << " образуют прямогольный треуголник" << endl;
+			break;
+		}
+		else
+		{
+			cout << "Треугольник не прямоугольный" << endl;
+			break;
+		}
+	}
+}
