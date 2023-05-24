@@ -33,5 +33,17 @@ FSTP AB Возврат значения в переменную АВ из st(0),
 Результат проверки для не прямоугольного треугольника с координатами А(0;0), B(0;4), C(3;1) <br>
 ![image](https://user-images.githubusercontent.com/126500303/228457544-bafb547c-8068-4c48-911d-6eea19643ce3.png) <br> <br>
 
-Код программы представлен в файле Code2.txt
+Так как математический сопроцессор хранит данные в виде, в котором они невоможны для восприятия чнловеком. Для верефикации результатов была создана программа на C++ для верификации результатов.<br>
+
+Код программы C++ <br>
+![C++](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/7fdaa44d-e805-4c82-8739-263bccc82846) <br>
+![С++](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/fad8321f-73ed-4947-8a7e-37cc318d7bd2) <br>
+
+Верификация результатов: <br>
+![Ver1](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/08ea690a-6875-4831-b6d5-ebb9ffe49d45) <br>
+![Ver2](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/c836a86f-33c5-4e15-a9e6-08a2bd321851) <br>
+![Ver3](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/9ac8d0a0-eef8-4f43-a357-9064e2a29fda) <br>
+
+Код программы assembler представлен в файле Code2.txt
+Код программы C++ представлен в файле Ver3.txt
 
