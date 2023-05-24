@@ -44,6 +44,6 @@ FSTP AB Возврат значения в переменную АВ из st(0),
 ![Ver2](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/c836a86f-33c5-4e15-a9e6-08a2bd321851) <br>
 ![Ver3](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/9ac8d0a0-eef8-4f43-a357-9064e2a29fda) <br>
 
-Код программы assembler представлен в файле Code2.txt
+Код программы assembler представлен в файле Code2.txt <br>
 Код программы C++ представлен в файле Ver3.txt
 
