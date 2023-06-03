@@ -44,6 +44,12 @@ FSTP AB Возврат значения в переменную АВ из st(0),
 ![Ver2](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/c836a86f-33c5-4e15-a9e6-08a2bd321851) <br>
 ![Ver3](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/9ac8d0a0-eef8-4f43-a357-9064e2a29fda) <br>
 
+Скорость работы программы на assembler:<br>
+![image](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/52cc9247-91fe-4663-b546-f1910be53d7e)<br>
+Скорость работы программы на C++: <br>
+![image](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/d5275361-b7fa-4114-ab4f-99c532e99649) <br>
+
+Таким образом, программа на C++ медленнее, чем assembler примерно в 5 раз.<br>
 Код программы assembler представлен в файле Code2.txt <br>
 Код программы C++ представлен в файле Ver3.txt
 
