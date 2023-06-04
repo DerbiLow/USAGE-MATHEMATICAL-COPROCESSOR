@@ -50,6 +50,6 @@ FSTP AB Возврат значения в переменную АВ из st(0),
 ![image](https://github.com/DerbiLow/USAGE-MATHEMATICAL-COPROCESSOR/assets/126500303/d5275361-b7fa-4114-ab4f-99c532e99649) <br>
 
 Таким образом, программа на C++ медленнее, чем assembler примерно в 5 раз.<br>
-Код программы assembler представлен в файле Code2.txt <br>
-Код программы C++ представлен в файле Ver3.txt
+Код программы assembler представлен в файле Code2.txt (проект в LABA 3 assembler) <br>
+Код программы C++ представлен в файле Ver3.txt (проект в ConsoleApplication51)
 
